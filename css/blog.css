@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'Simplifica';
+	src:url(../fontes/SIMPLIFICA%20Typeface.ttf);
+	}
+@font-face{
+	font-family: 'Bignoodletitling';
+	src:url(../fontes/big_noodle_titling.ttf);
+	}
+@font-face{
+	font-family: 'HelveticaN';
+	src:url(../fontes/Helvetica.otf);
+	}
+	body{ background-color:#FFF; }
+*{margin:0px; padding:0px;}
+/* Logo  */
+
+body{ background-image:url(../../layout/img/cursosback.jpg); background-size:100%; }
+h1{ font-family:Bignoodletitling; width:100%; padding-top:20px; padding-bottom:20px; transition:0.3s ease-in-out; background-color:rgba(0,0,0,0.7); text-align:center; color:#FFF; font-size:300%; font-weight:100; }
+h2{ font-family:Bignoodletitling; color:#FFF; font-size:300%; font-weight:100; margin-left:30px; padding:20px; }
+
+#text{ font-family:Tahoma; width:500px; margin-left:30px; margin:15px; color:#666; padding:5px; font-size:100%; font-weight:100; } 
+textarea{ margin-left:30px; margin:15px; padding:5px;  font-family:Tahoma;  color:#666; padding:5px; font-size:100%; font-weight:100;}
+#button{ float:right; width:300px; height:200px; margin-right:30px; background-color:rgba(204,204,204,0.3); border:none; font-family:Bignoodletitling; color:#FFF; font-size:300%; font-weight:100;  transition:0.3s ease-in-out; }
+#button:hover{ height:300px; transition:0.3s ease-in-out; background-color:rgba(204,204,204,0.7); border-radius:5px; }
+footer{ background-image:url(../img/footerback.jpg);}
+footer hr{ width:80%; border:1px solid #FFF; margin:0 auto; } 
+footer h6{ text-align:center; font-family:Bignoodletitling; font-weight:100; color:#FFF; font-size:200%; padding:40px; }

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'Simplifica';
+	src:url(../fontes/SIMPLIFICA%20Typeface.ttf);
+	}
+@font-face{
+	font-family: 'Bignoodletitling';
+	src:url(../fontes/big_noodle_titling.ttf);
+	}
+@font-face{
+	font-family: 'HelveticaN';
+	src:url(../fontes/Helvetica.otf);
+	}
+	body{ background-color:#FFF; }
+*{margin:0px; padding:0px;}
+/* Logo  */
+header{  min-height:700px; padding-bottom:30px; background-size:1366px; background-repeat:no-repeat;  }
+header img{ max-width:100%; margin:20px; }
+header img:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; border-radius:10px; }
+#logo{ margin:20px; padding:20px; }
+header menu{ float:right;  margin:10px;  }
+header menu img{ padding:30px; float:right; }
+header menu img:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; padding:30px;   }
+header menu ul{ list-style-type:none; }
+header menu ul li{  display:inline-block; padding:20px; padding-left:30px; padding-right:30px;  transition:ease-in-out 0.3s; }
+header menu ul li a{ text-decoration:none; color:#FFF; font-family:Arial; font-size:100%; font-weight:100;}
+header menu ul li:hover{ background-color:rgba(204,204,204,.3); transition:ease-in-out 0.3s; padding:30px; border-radius:10px;}
+header menu ul li:hover a{}
+#conq{ float:right; margin-top:30px; padding-right:170px; width:300px; clear:both; }
+header h1{ text-align:center; font-family:Bignoodletitling; font-weight:100; color:#FFF; font-size:300%; padding-top:50px; padding-bottom:40px;}
+header h2{  text-align:center; font-family:tahoma; font-weight:100; color:#FFF; font-size:100%;  padding-bottom:50px;  }
+header a{ text-decoration:none;  text-align:center; }
+header a h3{ background-color:rgba(100%,100%,100%,.1); color:#FFF; font-family:Bignoodletitling; font-weight:100; font-size:200%; border:none; margin-bottom:10px; width:100px; margin:0 auto; padding:100px; padding-top:10px; padding-bottom:10px; transition:0.3s ease-in-out; border-radius:5px;  }
+header a h3:hover{ background-color:rgba(0,153,255,1); }
+
+
+#unidades{  padding-top:30px; padding-bottom:30px; clear:both; }
+#unidades h1{ font-family:Bignoodletitling; font-weight:100; color:#FFF; font-size:400%; padding-left:40px;}
+#unidades hr{width:80%; border:1px solid #FFF; margin:0 auto;}
+#unidades h6{ text-align:center; padding-top:30px;}
+#unidades p{ text-align:center; padding-top:30px; color:#FFF; font-family:Arial; font-weight:100; font-size:100%; }
+
+#contato{ padding-top:30px; padding-bottom:30px; }
+#contato h1{ font-family:Bignoodletitling; font-weight:100; color:#FFF; font-size:400%; padding-left:40px;}
+#contato hr{width:80%; border:1px solid #FFF; margin:0 auto;}
+#contato h6{ text-align:center; padding-top:30px; border-radius:10px;}
+#contato #input{   color:#AAA; font-weight:100; font-size:150%; border:none; margin-bottom:10px; width:20%; padding:10px; margin:10px;  }
+#contato textarea{ color:#AAA;  font-weight:100;  border:none; margin-bottom:10px; width:30%; padding:10px; margin:10px;  }
+#contato #enter{ background-color:rgba(255,255,255,0.1); color:#FFF; font-family:Bignoodletitling; font-weight:100; font-size:300%; border:none; margin-bottom:10px; width:30%; padding:10px; transition:0.3s ease-in-out; border-radius:5px; }
+#contato #enter:hover{ background-color:rgba(255,255,255,0.3) ; transition:0.3s ease-in-out;}
+#contato p{ text-align:center; padding-top:30px; color:#FFF; font-family:Arial; font-weight:100; font-size:100%; }
+
+/* Parceiros */
+
+#parceiros{  padding-top:30px; padding-bottom:30px; }
+#parceiros h1{ font-family:Bignoodletitling; font-weight:100; color:#FFF; font-size:400%; padding-left:40px;}
+#parceiros hr{width:80%; border:1px solid #FFF; margin:0 auto;}
+#parceiros h6{ text-align:center; }
+#par { padding:30px;  }
+#par h1{ text-align:center; padding-left:0px;}
+#par a{ text-decoration:none; }
+
+/* Cursos */
+#cursos{ background-image:url(../img/cursosback.jpg); background-size:100%;}
+#cursos h1{ font-family: Bignoodletitling; font-weight: 100; font-size: 400%; color: #FFF; padding: 20px; margin-left: 100px; clear: both;}
+#cursos hr{ width: 98%; margin: 0 auto; border: 1px solid #FFF; }
+#aligncourse{ width: 98%; margin: 0 auto; }
+#curso1{ width: 400px; padding-bottom:50px;  margin-top: 20px; margin-left: 30px;  background-color: #FFF;  float: left; margin-bottom: 30px;}
+#curso1 h1{ padding-top: 10px; padding: 10px; background-color:rgba(255,200,20,1); margin-left: 0px; color: #FFF; text-align: center; font-family: Bignoodletitling; font-size: 300%; font-weight: 100; }
+#curso1 h2{ font-family: Tahoma; padding: 15px; font-size: 90%; text-align: center; color: #888; font-weight: 100; }
+#curso1 p{ font-family: Tahoma; padding: 8px; font-size: 82%; text-align: center; color: #BBB;}
+#curso1 strong{ color: #AAA; }
+
+#curso2{ width: 80%; padding-bottom:50px; background-color: #FFF;  float: left; clear: both;  margin-left: 10%; margin-bottom: 30px;}
+#curso2 h1{ padding-top: 10px; padding: 10px;    margin-left: 0px; color: #FFF; text-align: center; font-family: Bignoodletitling; font-size: 300%; font-weight: 100; }
+#curso2 h2{ font-family: Tahoma; padding: 15px; width: 80%; margin: 0 auto; font-size: 90%; text-align: center; color: #888; font-weight: 100; }
+#curso2 p{ font-family: Tahoma; padding: 8px; font-size: 82%; text-align: center; color: #BBB;}
+#curso2 strong{ color: #AAA; }
+#grade{ width: 100%; height:800px; }
+
+/* menuall */
+
+#cursos img{ max-width:100%; margin:20px; }
+#cursos img:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; border-radius:10px; }
+ #menuall{ float:right;  margin:10px;  }
+ #menuall img{ padding:30px; float:right; }
+ #menuall img:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; padding:30px;   }
+#menuall ul{ list-style-type:none; }
+#menuall ul li{  display:inline-block; padding:20px; padding-left:30px; padding-right:30px;  transition:ease-in-out 0.3s; }
+#menuall ul li a{ text-decoration:none; color:#FFF; font-family:Arial; font-size:100%; font-weight:100;}
+#menuall ul li:hover{ background-color:rgba(204,204,204,.3); transition:ease-in-out 0.3s; padding:30px; border-radius:10px;}
+#menuall ul li:hover a{}
+
+
+footer{ background-image:url(../img/footerback.jpg);}
+footer menu{ padding-top:20px; padding-bottom:20px;}
+footer menu ul{ width:30%; margin:0 auto; list-style-type:none;}
+footer menu ul li{ text-align:center; text-decoration:none; padding:10px; transition:ease-in-out 0.3s;}
+footer menu ul li a{ text-decoration:none; color:#FFF; font-family:Arial; font-size:100%; font-weight:100;}
+footer menu ul li:hover{  background-color:rgba(204,204,204,.3); transition:ease-in-out 0.3s; border-radius:5px;}
+footer menu ul li:hover a{}
+footer hr{ width:80%; border:1px solid #FFF; margin:0 auto; } 
+footer p{ text-align:center; padding-top:30px; color:#FFF; font-family:Arial; font-weight:100; font-size:100%; }
+footer h6{ text-align:center; font-family:Bignoodletitling; font-weight:100; color:#FFF; font-size:200%; padding:40px; }

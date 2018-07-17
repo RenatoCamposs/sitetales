@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'Bignoodletitling';
+	src:url(../fontes/big_noodle_titling.ttf);
+	}
+menu ul li{ display:inline-block; background-color:rgba(0%,0%,0%,.3);  color:#FFF; font-family:Bignoodletitling; width:350px; font-size:100%;font-weight:100; text-align:center; padding-bottom:30px; border-radius:10px; padding-top:30px;  transition:0.3s ease-in-out;}
+menu ul li a{ color:#FFF; font-size:200%;text-decoration:none; }
+menu ul li:hover{ padding-bottom:40px; border-bottom:10px solid rgba(0,153,255,.5); transition:0.3s ease-in-out; }
+
+
+#logo{ padding:30px; }
+
+hr{ border:1px solid #FFF; width:70%; margin: 0 auto;}
+/* menuall */
+
+#cursos img{ max-width:100%; margin:20px; border-radius:10px; }
+#logo:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; border-radius:10px; }
+ #menuall{ float:right;  margin:10px;  }
+ #menuall img{ padding:30px; float:right; }
+ #menuall img:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; padding:30px;  border-radius:10px;	  }
+#menuall  #menu { list-style-type:none; }
+#menuall  #menu li{  display:inline-block; padding:20px; padding-left:30px; padding-right:30px;  transition:ease-in-out 0.3s; }
+#menuall  #menu li a{ text-decoration:none; color:#FFF; font-family:Arial; font-size:100%; font-weight:100;}
+#menuall  #menu li:hover{ background-color:rgba(204,204,204,.3); transition:ease-in-out 0.3s; padding:30px; border-radius:10px;}
+#menuall  #menu li:hover a{}
+*{ margin:0px; padding:0px; }
+body{ background-image:url(../img/cursosback.jpg); }
+h1{ color:#FFF; font-family:Bignoodletitling; font-size:300%; text-align:center; width:100%; font-weight:100; padding:30px; padding-left:0px; padding-right:0px;}
+
+h2{ color:#FFF; padding:20px; font-weight:100; font-family:Bignoodletitling; margin-left:100px; }
+form{ padding:30px; }
+form p{ color:#FFF; font-family:Tahoma; font-weight:100; padding:10px; }
+form textarea{  }
+input{ margin:20px; padding:5px;}

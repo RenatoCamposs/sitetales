@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'Simplifica';
+	src:url(../fontes/SIMPLIFICA%20Typeface.ttf);
+	}
+@font-face{
+	font-family: 'Bignoodletitling';
+	src:url(../fontes/big_noodle_titling.ttf);
+	}
+@font-face{
+	font-family: 'HelveticaN';
+	src:url(../fontes/Helvetica.otf);
+	}
+	body{ background-color:#FFF; }
+*{margin:0px; padding:0px;}
+/* Logo  */
+
+
+
+
+/* Cursos */
+body{   }
+#cursos{}
+#cursos h1{ font-family: Bignoodletitling; font-weight: 100; font-size: 400%; color: #FFF; padding: 20px;  margin-left: 100px; clear: both;}
+#cursos hr{ width: 98%; margin: 0 auto; border: 1px solid #FFF; }
+#aligncourse{ width: 98%; margin: 0 auto; }
+#curso1{ width: 80%;  padding-bottom:50px;  margin-top: 20px; margin-left: 30px;  background-color: #FFF;  float: left; margin-bottom: 30px;}
+#curso1 h1{ padding-top: 10px; padding: 10px; background-color:rgba(255,200,20,1); margin-left: 0px; color: #FFF; text-align: center; font-family: Bignoodletitling; font-size: 300%; font-weight: 100; }
+#curso1 h2{ font-family: Tahoma; padding: 15px; font-size: 90%; text-align: center; color: #888; font-weight: 100; }
+#curso1 p{ font-family: Tahoma; padding: 8px; font-size: 82%; text-align: center; color: #BBB;}
+#curso1 strong{ color: #AAA; }
+#logo{ padding:30px; }
+#curso2{ width: 80%; margin:20px; padding-bottom:50px; background-color: #FFF;  float: left; clear: both;  margin-left: 10%; margin-bottom: 30px;}
+#curso2 h1{ padding-top: 10px; padding: 10px;    margin-left: 0px; color: #FFF; text-align: center; font-family: Bignoodletitling; font-size: 300%; font-weight: 100; }
+#curso2 h2{ font-family: Tahoma; padding: 15px; width: 80%; margin: 0 auto; font-size: 90%; text-align: center; color: #888; font-weight: 100; }
+#curso2 p{ font-family: Tahoma; padding: 8px; font-size: 82%; text-align: center; color: #BBB;}
+#curso2 strong{ color: #AAA; }
+#grade{ width: 100%; }
+hr{ border:1px solid #FFF; width:70%; }
+/* menuall */
+
+#cursos img{ max-width:100%; margin:20px; border-radius:10px; }
+#logo:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; border-radius:10px; }
+ #menuall{ float:right;  margin:10px;  }
+ #menuall img{ padding:30px; float:right; }
+ #menuall img:hover{ background-color:rgba(255,255,255,.3); transition:ease-in-out 0.3s; padding:30px;  border-radius:10px;	  }
+#menuall ul{ list-style-type:none; }
+#menuall ul li{  display:inline-block; padding:20px; padding-left:30px; padding-right:30px;  transition:ease-in-out 0.3s; }
+#menuall ul li a{ text-decoration:none; color:#FFF; font-family:Arial; font-size:100%; font-weight:100;}
+#menuall ul li:hover{ background-color:rgba(204,204,204,.3); transition:ease-in-out 0.3s; padding:30px; border-radius:10px;}
+#menuall ul li:hover a{}
+#tech{  transition:0.3s ease-in-out; }
+#tech:hover{ background-color:rgba(230,230,230,0.2); transition:0.3s ease-in-out; }
+
+footer{ background-image:url(../img/footerback.jpg); clear:both;}
+footer menu{ padding-top:20px; padding-bottom:20px;}
+footer menu ul{ width:30%; margin:0 auto; list-style-type:none;}
+footer menu ul li{ text-align:center; text-decoration:none; padding:10px; transition:ease-in-out 0.3s;}
+footer menu ul li a{ text-decoration:none; color:#FFF; font-family:Arial; font-size:100%; font-weight:100;}
+footer menu ul li:hover{  background-color:rgba(204,204,204,.3); transition:ease-in-out 0.3s; border-radius:5px;}
+footer menu ul li:hover a{}
+footer hr{ width:80%; border:1px solid #FFF; margin:0 auto; } 
+footer h6{ text-align:center; font-family:Bignoodletitling; font-weight:100; color:#FFF; font-size:200%; padding:40px; }
